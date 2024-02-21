@@ -1,0 +1,35 @@
+.container {
+	max-width: 100%;
+    max-height: 100%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.sessao {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.sessao-topicos{
+    margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+    display: flex;
+}
+
+.item-apresentacao {
+	margin: 5px;
+	background: #ebc;
+	font-size: 1.5em;
+}
+
+.item-topicos {
+    margin: 5px;
+	background: #cb6;
+	text-align: center;
+	font-size: 1.5em;
+    flex: 1;
+}
