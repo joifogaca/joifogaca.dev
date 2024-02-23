@@ -11,7 +11,34 @@
 }
 
 @font-face {
-    font-family: 'Roboto'; 
+    font-family: 'Roboto 300'; 
     src: url('../fonts/Roboto/Roboto-Light.ttf');
     font-weight: 300;
+}
+
+/* <uniquifier>: Use a uniquifier for the class name
+ <weight>: Use a value from 100 to 900 */
+
+@font-face {
+    font-family: "Urbanist";
+    src: url('../fonts/Urbanist/Urbanist-VariableFont_wght.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Antonio";
+    src: url('../fonts/Antonio/Antonio-VariableFont_wght.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url('../fonts/Dosis/Dosis-VariableFont_wght.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Yanone";
+    src: url('../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf');
+    font-weight: 200;
 }
